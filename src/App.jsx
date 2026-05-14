@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import './index.css'
 import './App.css'
 
@@ -8,8 +8,8 @@ const PROJECTS = [
     status: 'live',
     desc: 'Stateless REST API with JWT auth, Redis token blacklisting (TTL-matched), per-user data ownership, and multi-stage Docker deployment.',
     tags: ['Java 17', 'Spring Boot 3', 'Redis', 'Docker', 'Railway'],
-    live: 'https://taskapi-production-3f0b.up.railway.app',
-    github: 'https://github.com/Nikhil-001',
+    live: 'https://taskapi-production-3f0b.up.railway.app/swagger-ui.html',
+    github: 'https://github.com/Nikhil-001/taskapi',
   },
   {
     name: 'URL Shortener',
