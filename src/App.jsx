@@ -8,7 +8,7 @@ const PROJECTS = [
     status: 'live',
     desc: 'Upload a resume PDF and paste a job description — AI scores the match, identifies gaps, missing keywords, and gives tailored suggestions. Built with Spring Boot, OpenAI, and PostgreSQL.',
     tags: ['Java 17', 'Spring Boot', 'OpenAI', 'PostgreSQL', 'Docker'],
-    live: 'https://YOUR-RAILWAY-URL.up.railway.app',
+    live: 'https://resume-analyzer-production-2e0a.up.railway.app',
     github: 'https://github.com/Nikhil-001/resume-analyzer',
   },
   {
