@@ -4,10 +4,18 @@ import './App.css'
 
 const PROJECTS = [
   {
+    name: 'AI Resume Analyzer',
+    status: 'live',
+    desc: 'Upload a resume PDF and paste a job description — AI scores the match, identifies gaps, missing keywords, and gives tailored suggestions. Built with Spring Boot, OpenAI, and PostgreSQL.',
+    tags: ['Java 17', 'Spring Boot', 'OpenAI', 'PostgreSQL', 'Docker'],
+    live: 'https://YOUR-RAILWAY-URL.up.railway.app',
+    github: 'https://github.com/Nikhil-001/resume-analyzer',
+  },
+  {
     name: 'Task Manager API',
     status: 'live',
     desc: 'Stateless REST API with JWT auth, Redis token blacklisting (TTL-matched), per-user data ownership, and multi-stage Docker deployment.',
-    tags: ['Java 17', 'Spring Boot 3', 'Redis', 'Docker', 'Railway'],
+    tags: ['Java 17', 'Spring Boot 3', 'Redis', 'PostgreSQL', 'Docker'],
     live: 'https://taskapi-production-3f0b.up.railway.app/swagger-ui.html',
     github: 'https://github.com/Nikhil-001/taskapi',
   },
