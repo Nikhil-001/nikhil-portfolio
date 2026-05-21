@@ -4,6 +4,14 @@ import './App.css'
 
 const PROJECTS = [
   {
+    name: 'Job Application Tracker',
+    status: 'live',
+    desc: 'Event-driven job tracker with Apache Kafka — add an application and get an instant email confirmation via SendGrid. Tracks status, analytics, response rate, and applications by country.',
+    tags: ['Java 17', 'Spring Boot', 'Apache Kafka', 'PostgreSQL', 'SendGrid'],
+    live: 'https://job-tracker-production-e142.up.railway.app',
+    github: 'https://github.com/Nikhil-001/job-tracker',
+  },
+  {
     name: 'AI Resume Analyzer',
     status: 'live',
     desc: 'Upload a resume PDF and paste a job description — AI scores the match, identifies gaps, missing keywords, and gives tailored suggestions. Built with Spring Boot, OpenAI, and PostgreSQL.',
