@@ -36,14 +36,6 @@ const PROJECTS = [
     github: null,
   },
   {
-    name: 'Job Application Tracker',
-    status: 'coming',
-    desc: 'Full-stack tracker with JWT auth, status pipeline, note-taking per application, and email reminders via scheduled jobs.',
-    tags: ['Java', 'Spring Boot', 'PostgreSQL', 'JWT'],
-    live: null,
-    github: null,
-  },
-  {
     name: 'MMO Game Server',
     status: 'shipped',
     desc: 'C++ backend for a live multiplayer game with 10k+ concurrent users. Rule-based state machines, Python NPC scripting, staged deployments.',
